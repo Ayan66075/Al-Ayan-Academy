@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="https://t3.ftcdn.net/jpg/03/75/67/74/360_F_375677469_UzQt3JpGywuXxkOlCkG7SJXXbiGsampv.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the container */
+center {
+    width: 100%;
+}
+
+/* Style the main container */
+div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input field styles */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Link styles */
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>Login User</h1>
+
+            <br>
+
+            <label>
+                E-mail :
+                <br>
+                <input type="email" name="" id="email">
+            </label>
+
+            <br><br>
+
+            <label>
+                Password :
+                <br>
+                <input type="password" name="" id="password">
+            </label>
+
+            <br><br>
+
+            <button onclick="login()">Login</button>
+
+            <a href="index.html">Go To Sign Up</a>
+
+        </div>
+
+    </center>
+
+    <script src="app.js"></script>
+</body>
+</html>
